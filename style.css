@@ -1,0 +1,253 @@
+/* ABOUT */
+
+body {
+    background-color: gainsboro;
+}
+
+#header {
+    background-color: lightblue;
+    height: 150px;
+    margin-top: 10px;
+    padding-right: -10px;
+    width: 100%;
+    position: sticky;
+    
+}
+
+
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    height: 90px;
+    width: auto;
+    padding-top:10px
+}
+
+#logo, .class {
+    display: block
+}
+
+#about, #gallery, #tta, #obituary {
+    display: inline-flex;
+    font-family: "Kunstler Script";
+}
+
+#about :hover{
+    color:black;
+    border-bottom: solid black 1px;
+}
+
+#gallery :hover{
+    color:black;
+    border-bottom: solid black 1px;
+}
+
+#tta :hover{
+    color:black;
+    border-bottom: solid black 1px;
+}
+
+#obituary :hover{
+    color:black;
+    border-bottom: solid black 1px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.photo-banner {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.photo-banner img {
+    display: inline-flex;
+    justify-content: center;
+    width: calc(100% - 67%);
+    height:500px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.photo-banner img:last-of-type{
+    margin-right: 0;
+}
+
+#timeline {
+    font-size: 40px;
+    text-align: center;
+    font-family: "times new roman"
+}
+
+
+
+.year {
+    font-weight: bold;
+}
+
+#timeline-list {
+    text-align: center;
+    line-height: 2.0;
+}
+
+#descriptions {
+    display: inline-block
+}
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    max-width: 100%;
+
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 4px 1px rgb(30,30,30) 
+}
+
+figure {
+    max-width: 300px;
+    height: 300px;
+    width: 100%;
+}
+
+figcaption {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/* TTA */
+
+#title {
+    font-family: "Times New Roman", serif;
+    color:rgb(82, 72, 61);
+    text-align: center;
+}
+
+#authors{
+    font-family: "Times New Roman", serif;
+    color:rgb(82, 72, 61);
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-top: -12px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+#description {
+    background-color: 
+    rgba(255, 255, 255, 0.336);
+}
+
+.standard, a {
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.standard {
+    text-align: left;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+a {
+    font-style: italic;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.row-one img{
+    width: 100%;
+    max-width: 200px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 5px 5px 3px 2px rgb(97, 97, 97)
+}
+#cite {
+    font-style: italic;
+}
+
+#paragraph-two {
+    background-color: lightblue;
+    color: black;
+}
+
+#paragraph-two p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#paragraph-one {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* OBITUARY */
+
+#name {
+    padding: 30px;
+    font-weight: bold;
+    color:rgb(82, 72, 61);
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+#subtitle {
+    text-align: center;
+    margin-top: -15px;
+    color: rgb(45, 40, 34);
+    font-weight: normal;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+}
+
+#obituary-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.336);
+}
